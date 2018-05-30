@@ -5,7 +5,7 @@ Provides a Java wrapper around the Yandex machine translation web service API.
 
 Currently, only the services for translating a single string and detecting the language of a single string are implemented in this API. The translate/detect services are not implemented for an array of strings, and the getLangs service is not implemented.
 
-This project was adapted from the microsoft-translator-java-api project by Jonathan Griggs.
+This project was adapted from the microsoft-translator-java-api project by Jonathan Griggs and optimised for use by 615283.
 
 ## Requires
 
