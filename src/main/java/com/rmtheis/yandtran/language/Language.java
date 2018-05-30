@@ -15,6 +15,8 @@
  */
 package com.rmtheis.yandtran.language;
 
+import java.util.HashMap;
+
 /**
  * Language - an enum of language codes supported by the Yandex API
  */
@@ -76,7 +78,7 @@ public enum Language {
     return null;
   }
 
-  /**
+    /**
    * Returns the String representation of this language.
    * @return The String representation of this language.
    */
