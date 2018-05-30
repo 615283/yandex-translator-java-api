@@ -14,6 +14,8 @@ This project was adapted from the microsoft-translator-java-api project by Jonat
 Quickstart
 ==========
 
+Compile as library by putting your Yandex API Key in ApiKeys.java then compiling with `mvn clean install`
+
 ```java
 import com.rmtheis.yandtran.language.Language;
 import com.rmtheis.yandtran.translate.Translate;
