@@ -6,6 +6,9 @@ import com.rmtheis.yandtran.translate.Translate;
 
 public final class TranslateUtils {
 
+    // prevent instantiation
+    private TranslateUtils(){};
+
     public static String detect(String apiKey, String text) {
         try {
             Translate.setKey(apiKey);
